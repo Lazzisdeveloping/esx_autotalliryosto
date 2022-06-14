@@ -159,7 +159,7 @@ end
 
 
 RegisterNetEvent('esx_autotalliryosto:ilmoitus')
-AddEventHandler('esx_autotalliryosto:ilmoitus', function(paikka)
+AddEventHandler('esx_autotalliryosto:ilmoitus', function(talli)
     if ESX.PlayerData.job.name ~= nil and ESX.PlayerData.job.name == 'police' or ESX.PlayerData.job.name == 'tutkinta' then
         ESX.ShowAdvancedNotification('Ilmoitus', '~r~Murtohälytys', "", "CHAR_CALL911", 1)
         local copblip = AddBlipForCoord(talli)
