@@ -9,9 +9,9 @@ local sisalla = false
 
 
 local murtovaline = "WEAPON_CROWBAR" -- Esine jonka tarvitset murtoon
-local tarvittavatkytat = 1 -- Kuin monta fobbaa alotukseen
+local tarvittavatkytat = 2 -- Kuin monta fobbaa alotukseen
 local lyontimaara = 5 -- Kuin mont kertaa pitää lyödä ovea
-local taimeri = 1 -- Cooldowni kauan joutuu odottaa (minuutteina)
+local taimeri = 10 -- Cooldowni kauan joutuu odottaa (minuutteina)
 
 local talli = vector3(-1096.4473, -1042.6635, 2.1565) -- Talli jonne murtaudutaan
 
